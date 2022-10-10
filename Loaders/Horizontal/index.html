@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horizontal Loader</title>
+    <style>
+      .loader {
+        background: #ccc;
+        width: 400px;
+        height: 10px;
+        border-radius: 10px;
+        position: relative;
+      }
+
+      .loader .blue-line {
+        background: #000;
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        width: 100px;
+        height: 10px;
+        animation: line-bounce 1.6s infinite;
+      }
+
+      @keyframes line-bounce {
+        0% {
+          left: 300px;
+        }
+        50% {
+          left: 0;
+        }
+        100% {
+          left: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="loader">
+      <div class="blue-line"></div>
+    </div>
+  </body>
+</html>
