@@ -1,12 +1,17 @@
-name: "Auto Assign"
+name: 'Auto Assign'
 on:
   pull_request:
-    types: [opened]
+    types: [opened, reopened, ready_for_review]
 
 jobs:
   add-reviews:
     runs-on: ubuntu-latest
     steps:
-      - uses: kentaro-m/auto-assign-action@v1.2.4
+      - name: 'Auto Assign Action'
+        uses: kentaro-m/auto-assign-action@v1.2.4
         with:
-          configuration-path: ".github/auto-assign.yml"
+          addReviewers: true
+          addAssignees: author
+          reviewers:
+            - Safnaj
+          numberOfReviewers: 1 
