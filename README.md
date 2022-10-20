@@ -1,4 +1,5 @@
 # HTML-Web-Snippets
+
 A Repository contains small &amp; re-usable HTML, CSS &amp; JS web snippets 🚀
 
 ## Folder Structure Guide
@@ -9,9 +10,8 @@ A Repository contains small &amp; re-usable HTML, CSS &amp; JS web snippets 🚀
       |-- index.html
       |-- style.css
       |-- README.md [Add the Screenshot of the snippet in the .md file]
-   |-- README.md   
+   |-- README.md
 ```
-
 
 ## Contribution Guide
 
