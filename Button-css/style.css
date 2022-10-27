@@ -1,0 +1,93 @@
+h1{
+text-decoration: underline;
+}
+
+.border{
+    border-style:solid;
+    box-shadow: 5px 3px;
+}
+
+.background{
+    background-image: linear-gradient(to right,white, pink);
+}
+
+img{
+    padding: 10px;
+    width: 500px;
+}
+
+table , th , td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+th{
+    background-color: darkgrey;
+    color: black;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+
+}
+
+tr:nth-child(odd){
+    background-color: peachpuff;
+
+}
+
+#lowerButton{
+    background-color: plum; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    float: left;
+    margin-left: 30px;
+    
+    
+    
+}
+
+#higherButton{
+    background-color: palevioletred; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-decoration: right;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+    float: right; 
+    margin-right: 30px;
+    
+}
+
+#colorchange:hover{
+    background-color: darkgray; 
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.lower{
+    margin: 100px auto;
+    text-align: left;
+  }
+  
+  .higher{
+    margin: 100px auto;
+    text-align: right;
+    align-content: flex-end;
+  }
+
+  p{
+      font-size: 155px;
+      text-align: center;
+      padding: 0px;
+  }
+  
+
